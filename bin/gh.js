@@ -180,7 +180,9 @@ if (command) {
 
             invokePayload(options, command, cooked, remain);
 
-            new command(options).run();
+            new command()
+                .withOptions(options)
+                .run();
         });
     });
 }

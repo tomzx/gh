@@ -56,6 +56,7 @@
     "wordwrap": "~0.0.2"
   },
   "devDependencies": {
+    "chai": "~1.8.1",
     "grunt": "~0.4.1",
     "grunt-bump": "0.0.11",
     "grunt-cli": "~0.1.9",
@@ -63,7 +64,9 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt-jsbeautifier": "0.2.2",
     "grunt-mocha-test": "~0.7.0",
-    "mocha": "~1.12.0"
+    "mocha": "~1.12.0",
+    "q": "~0.9.7",
+    "sinon": "~1.7.3"
   },
   "engines": {
     "node": ">=0.8 <0.12"
